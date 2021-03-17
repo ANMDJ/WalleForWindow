@@ -5,6 +5,7 @@
 3.更改打包参数
 	用文本编辑器打开wallebat.bat文件,替换签名参数
 	例：
+  
 	CALL apksigner sign --ks （密钥库名） --ks-key-alias (密钥别名) --ks-pass pass:(KeyStore密码) --key-pass pass:(签署者的密码) --out app_signed.apk app_aligned.apk
 
 	CALL apksigner sign --ks my_key.jks --ks-key-alias myapp --ks-pass pass:kspassword --key-pass pass:keypassword --out app_signed.apk app_aligned.apk
